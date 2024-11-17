@@ -1,8 +1,10 @@
-require('dotenv').config()
+import dotenv from 'dotenv';
 import fs from 'node:fs/promises';
 
 import bodyParser from 'body-parser';
 import express from 'express';
+
+dotenv.config();
 
 const app = express();
 
